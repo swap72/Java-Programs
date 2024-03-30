@@ -18,7 +18,7 @@ public class BetterApproach{
             System.out.printf("\nThis Array Does Not Contain %d! ",a);
         }
         
-        //Throws exception if element is out of the scope of the Array.
+        //Exception Handled.
         
         while(low<=high){
             if(a==SoAr[mid]){
