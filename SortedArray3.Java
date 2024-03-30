@@ -4,7 +4,7 @@ public class SortedArray3{
     public static void main(String[] args) {
         int[] SoAr={1,22,31,46,51,64,77,80,91,100,120};
         Scanner input=new Scanner(System.in);
-        System.out.println("Target Element: ");
+        System.out.print("Target Element: ");
         int a=input.nextInt();
         int low=0;int high=SoAr.length-1;int mid=(low+high)/2;
         
